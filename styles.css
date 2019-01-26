@@ -43,3 +43,20 @@ nav a {
 nav a:hover {
   background-color: #310D20;
 }
+
+main {
+  min-height: 300px;
+}
+footer {
+  border-top: 1px solid #171219;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-style: italic;
+}
+footer a {
+  color: #171219;
+}
+footer a:hover {
+  color: #F0803C;
+}
