@@ -1,0 +1,16 @@
+body {
+  background-color: #EDF060;
+  color: #171219;
+  margin: 0;
+}
+
+header {
+  background-color: #F0803C;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Righteous', cursive;
+}
+
+header h1 {
+  margin: 0;
+}
