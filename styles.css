@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #EDF060;
   color: #171219;
@@ -18,6 +22,12 @@ header h1 {
 nav {
   background-color: #225560;
   overflow: auto;
+}
+
+nav:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 nav ul {
@@ -46,7 +56,38 @@ nav a:hover {
 
 main {
   min-height: 300px;
+  background-color: #efefef;
 }
+
+main aside {
+  width: 20%;
+  display: inline-block;
+  padding: 1em;
+  vertical-align: top;
+}
+
+main section {
+  width: 79%;
+  border-left: 1px solid #171219;
+  display: inline-block;
+  padding: 1em;
+}
+
+main section img {
+  width: 300px;
+  float: left;
+  margin: 0 0.5em 0.5em 0;
+}
+
+main section p {
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+main aside h3, main section h2 {
+  font-size: 2em;
+}
+
 footer {
   border-top: 1px solid #171219;
   text-align: center;
