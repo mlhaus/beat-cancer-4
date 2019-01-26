@@ -8,9 +8,38 @@ header {
   background-color: #F0803C;
   text-align: center;
   font-size: 2em;
-  font-family: 'Righteous', cursive;
+  font-family: 'Righteous', serif;
 }
 
 header h1 {
   margin: 0;
+}
+
+nav {
+  background-color: #225560;
+  overflow: auto;
+}
+
+nav ul {
+  list-style: none;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em;
+  color: #dddddd;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-right: 1px solid #dddddd;
+}
+
+nav a:hover {
+  background-color: #310D20;
 }
